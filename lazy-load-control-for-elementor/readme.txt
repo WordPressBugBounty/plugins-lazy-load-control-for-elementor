@@ -3,9 +3,9 @@
 Contributors:      giuse
 Donate link: https://www.buymeacoffee.com/josem
 Requires at least: 4.6
-Tested up to:      6.2
+Tested up to:      6.7
 Requires PHP:      7.2
-Stable tag:        1.0.0
+Stable tag:        1.1.0
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 Tags:              speed optimization, performance, LCP, Largest Contentful Paint
@@ -41,14 +41,20 @@ For any question or if something doesn't work, don't hesitate to open a thread o
 
 == Changelog ==
 
+
+= 1.1.0 =
+* Checked: WordPress 6.7
+* Removed: Email do admin
+
 = 1.0.0 =
 * Checked: Elementor 3.24.7, and WordPress 6.6
 
 = 0.0.3 =
-* Checked: Elementor tested up to 3.13.4, Elementor Pro tested up to 3.13.2
+* Checked: Elementor 3.18.3, and WordPress 6.4
+* Fix: lazy load not working with WordPress 6.4
 
 = 0.0.2 =
-* Checked: Elementor tested up to 3.7.0, Elementor PRO tested up to 3.9.2
+* Checked: Elementor 3.7.0, and Elementor PRO 3.9.2
 
 = 0.0.1 =
 *Initial release

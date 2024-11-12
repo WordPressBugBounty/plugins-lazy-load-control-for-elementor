@@ -1,6 +1,6 @@
 <?php
 /**
- * Silent is golden
+ * Silent is golden.
  *
  * @package Lazy Load Control For Elementor
  */
