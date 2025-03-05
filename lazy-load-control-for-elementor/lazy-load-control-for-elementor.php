@@ -6,8 +6,8 @@ Author: Jose Mortellaro
 Author URI: https://josemortellaro.com
 Domain Path: /languages/
 Text Domain: lazy-load-control-for-elementor
-Version: 1.1.0
-Elementor tested up to: 3.18.5
+Version: 1.1.1
+Elementor tested up to: 3.27.6
 Requires Plugins: elementor
 */
 /*  This program is free software; you can redistribute it and/or modify
@@ -58,3 +58,9 @@ add_action( 'elementor/widget/render_content', function( $content, $widget ){
   }
   return $content;
 }, 10, 2 );
+
+// It adds a link to upgrade in the plugins page.
+add_filter( "plugin_action_links_lazy-load-control-for-elementor/lazy-load-control-for-elementor.php", function( $links ) {
+	$links[] = '<a class="eos-dp-help" href="https://shop.josemortellaro.com/downloads/lazy-load-control-for-elementor/" target="_llcfe_pro" rel="noopener" style="color:#B07700;font-weight:bold;text-wrap:nowrap">' . esc_html__( 'Upgrade', 'freesoul-deactivate-plugins' ) . ' <span style="position:relative;top:-10px;' . ( is_rtl() ? 'right' : 'left' ) . ':-6px;display:inline-block">👑</span></a>';
+	return $links;
+} );
