@@ -2,9 +2,9 @@
 
 Contributors:      giuse
 Requires at least: 4.6
-Tested up to:      6.8
+Tested up to:      6.9
 Requires PHP:      7.2
-Stable tag:        1.1.2
+Stable tag:        1.1.3
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 Tags:              speed optimization, performance, LCP, Largest Contentful Paint
@@ -37,7 +37,14 @@ It's an add-on of Freesoul Deactivate Plugins to clean up the Elementor editor f
 == Customization ==
 
 If you have special requirements or advanced use cases, the author offers custom solutions tailored to your setup.
-For speed optimization, integration support, or consulting, feel free to get in touch via our <a href="https://josemortellaro.com/speed-optimization/">Speed Optimization Services page</a>.
+For speed optimization, integration support, or consulting, feel free to get in touch via our <a href="https://josemortellaro.com/speed-optimization/">Speed Optimization Service</a> page.
+
+
+
+== Backend Speed Optimization ==
+
+I help fix slow dashboards by optimizing queries and backend workload.
+Read <a href="https://josemortellaro.com/backend-speed-optimization/">Backend Speed Optimization Service</a> for more information.
 
 
 

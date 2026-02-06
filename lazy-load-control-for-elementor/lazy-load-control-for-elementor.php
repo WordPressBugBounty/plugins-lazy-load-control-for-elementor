@@ -4,10 +4,11 @@ Plugin Name: Lazy Load Control For Elementor
 Description: Remove the Lazy Load attribute from specific images in Elementor.
 Author: Jose Mortellaro
 Author URI: https://josemortellaro.com
+Plugin URI: https://josemortellaro.com
 Domain Path: /languages/
 Text Domain: lazy-load-control-for-elementor
-Version: 1.1.2
-Elementor tested up to: 3.29.2
+Version: 1.1.3
+Elementor tested up to: 3.33.1
 Requires Plugins: elementor
 */
 /*  This program is free software; you can redistribute it and/or modify
